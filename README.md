@@ -855,7 +855,9 @@ SET [SESSION|GLOBAL] TRANSACTION ISOLATION LEVEL {READ UNCOMMITTED | READ COMMIT
 
 - 逻辑存储结构
 
-  ![image-20220719175544683](https://github.com/zhougongzi66da/MySQL/blob/main/img/image-20220719175544683.png)
+  ![image-20220719175544683](C:\Users\周公子66哒\AppData\Roaming\Typora\typora-user-images\image-20220719175544683.png)
+
+
 
 ### MyISAM
 
@@ -984,7 +986,7 @@ B-Tree，B树是一种多叉路衡查找树，相对于二叉树，B树每个节
 
 B+Tree是B-Tree的变种，我们以一颗最大度数（max-degree）为4（4阶）的b+tree为例，来看一 下其结构示意图：
 
-![image-20220719214023501](https://github.com/zhougongzi66da/MySQL/blob/main/img/image-20220719214023501.png)
+![image-20220719214023501](C:\Users\周公子66哒\AppData\Roaming\Typora\typora-user-images\image-20220719214023501.png)
 
 我们可以看到，两部分： 
 
@@ -1136,24 +1138,6 @@ SHOW [GLOBAL|SESSION] STATUS LIKE 'Com_______';
  	配置完毕之后，通过以下指令重新启动MySQL服务器进行测试，查看慢日志文件中记录的信息 	/var/lib/mysql/localhost-slow.log。
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### profile详情
 
